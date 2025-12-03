@@ -11,7 +11,7 @@ import "vitepress-theme-teek/theme-chalk/tk-banner-desc-gradient.css";
 import "vitepress-theme-teek/theme-chalk/tk-banner-full-img-scale.css";
 import "vitepress-theme-teek/theme-chalk/tk-fade-up-animation.css";
 import "vitepress-theme-teek/theme-chalk/tk-home-card-hover.css";
-import "vitepress-theme-Teek/vp-plus/nav-blur.scss"; //导航栏毛玻璃
+import "vitepress-theme-teek/vp-plus/nav-blur.scss"; //导航栏毛玻璃
 import "./style/index.scss";  // 引入Demo\docs-base\.vitepress\theme\style\index.scss全局样式
 import "vitepress-theme-teek/vp-plus/container-flow.scss"; // Markdown 容器流体样式
 import CalendarCard from "./Components/CalendarCard.vue";
