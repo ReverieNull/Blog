@@ -1,0 +1,1 @@
+import "./style/index.scss"; // 引入docs\.vitepress\theme\style\font.scss全局样式

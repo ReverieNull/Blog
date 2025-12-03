@@ -1,0 +1,28 @@
+@use "./var.scss" as *; //自定义变量
+// 流体边框自定义容器样式
+// 流体边框自定义容器样式
+@use "./Container/container-border.scss" as *; // container-hyde容器
+// 流体边框自定义容器样式
+@use "./Container/container-hyde.scss" as *; // container-hyde容器
+// 流体边框自定义容器样式
+@use "./custom-block.scss" as *; // container-hyde容器
+// 流体边框自定义容器样式
+@use "./Container/index.css" as *;
+@use "./font.scss" as *; // 字体
+
+// 覆盖teek主题侧边栏默认变量
+:root {
+  --tk-sidebar-width: 260px; // 侧边栏宽度
+  --tk-sidebar-bg-color: #f9fafb; // 背景色
+  --tk-sidebar-text-color: #374151; // 文字色
+  --tk-sidebar-hover-bg: #f3f4f6; // hover背景
+  --tk-sidebar-active-color: #8b5cf6; // 激活色
+}
+
+// 暗色模式变量
+html.dark {
+  --tk-sidebar-bg-color: #1f2937;
+  --tk-sidebar-text-color: #e5e7eb;
+  --tk-sidebar-hover-bg: #374151;
+  --tk-sidebar-active-color: #a78bfa;
+}

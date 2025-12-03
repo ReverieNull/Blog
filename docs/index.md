@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "橙三味笔记"
+  name: "天游笔记"
   text: "学无涯矣"
   tagline: 记录路上的每一张风景
   actions:

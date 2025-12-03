@@ -1,0 +1,28 @@
+/* 头像容器核心样式：调整尺寸、高度、间距 */
+.tk-blogger-avatar {
+  /* 容器宽高（比circleSize大，能显示更多背景图） */
+  width: 120px !important; 
+  height: 120px !important; 
+  /* 容器内边距（可选，让头像和容器边框有间距） */
+  padding: 5px !important; 
+  /* 容器底部间距（和文字区域的距离） */
+  margin: 0 auto 20px !important; 
+  /* 容器背景（可选，覆盖circleBgImg） */
+  background: #f5f5f5 !important; 
+  /* 容器边框（可选，突出容器） */
+  border: 2px solid #ff4800 !important; 
+  border-radius: 50% !important; /* 保持圆形（和shape匹配） */
+}
+
+/* 容器内的头像元素（适配容器尺寸） */
+.tk-blogger-avatar img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important; /* 头像也保持圆形 */
+}
+
+/* 容器旋转效果增强（可选，适配circle-rotate风格） */
+.tk-blogger-avatar:hover {
+  transform: rotate(360deg) !important;
+  transition: transform 1s ease !important;
+}
