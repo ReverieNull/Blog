@@ -117,6 +117,7 @@ export default defineConfig({
         items: [
               { text: '①前端基础', link: '...' },
               { text: '②前端进阶', link: '...' },
+              { text: '前端框架Vue', link:'/前端/框架篇/VUE/vue'},
               { text: '③前端工程化', link: '...' },
               { text: '④前端性能优化', link: '...' }
             ]
@@ -157,10 +158,11 @@ export default defineConfig({
               { text: '性能优化', link: '/面试/性能优化' },
               { text: '浏览器原理', link: '/面试/浏览器'},
               { text: '算法',  items: [
-                { text: '数组', link: '/算法/数组' },
-                { text: '链表', link: '/算法/链表' },
-                { text: '二叉树', link: '/算法/二叉树' },
                 { text: '栈', link: '/算法/栈' },
+                { text: '数组', link: '/算法/数组' },
+                { text: '队列', link: '/算法/队列' },
+                { text: '链表', link: '/算法/链表' },
+                { text: '二树', link: '/算法/树' },
                 { text: '排序', link: '/算法/排序' },
                 { text: '堆', link: '/算法/堆' },
                 { text: '动态规划', link: '/算法/动态规划' },
@@ -188,7 +190,7 @@ export default defineConfig({
           text: '前端框架',
           collapsed: true, // 默认折叠
           items: [
-            { text: 'Vue 笔记', link: '/前端/框架篇/vue.md' },
+            { text: 'Vue 笔记', link: '/前端/框架篇/VUE/vue' },
             { text: 'React 笔记', link: '/前端/框架篇/react.md' },
 
           ]
